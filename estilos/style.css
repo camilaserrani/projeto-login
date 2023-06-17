@@ -1,3 +1,44 @@
 @charset "UTF-8";
 
-/* Paleta de cores */
+/* Paleta de cores 
+    #8C0436 rosa
+    #BACDD9 cinza
+    #214001 verde
+    #467302 verde claro
+    #73463C marrom
+*/
+
+/* Modo mobile first */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color:#214001; 
+    height: 100vh;
+}
+
+main {
+   background-color: white;
+   position:relative;
+   width: 250px;
+   height: 450px;
+   margin: auto;
+   margin-top: 20px;
+   border-radius: 20px;
+   padding: 10px; 
+}
+
+#imagem {
+    background: url(../imagens/gastronomia.jpg) no-repeat;
+    width: 500px;
+    height: 600px;
+
+}
+
+#formulario > h1 {
+    text-align: center;
+}
+
+
